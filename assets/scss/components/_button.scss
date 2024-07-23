@@ -1,0 +1,17 @@
+.header--content {
+  button {
+    text-transform: uppercase;
+    color: white;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 18px 23px;
+
+    transition: all 1s ease-in-out;
+
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}

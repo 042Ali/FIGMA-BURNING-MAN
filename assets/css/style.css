@@ -54,8 +54,16 @@ body {
   align-items: center;
 }
 .header--nav div:first-child ul a:hover {
+  transition: all 0.5s ease-in-out;
   border-bottom: 1px solid rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.header--nav .a:hover {
+  transition: all 0.5s ease-in-out;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  background-color: black;
+  border-radius: 10px;
 }
 .header--content {
   margin-top: 100px;
@@ -130,6 +138,20 @@ main {
 .about .cards .card div:last-child {
   display: flex;
   justify-content: space-between;
+}
+
+.header--content button {
+  text-transform: uppercase;
+  color: white;
+  font-size: 17px;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 18px 23px;
+  transition: all 1s ease-in-out;
+}
+.header--content button:hover {
+  background-color: white;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
